@@ -1,25 +1,100 @@
 @charset "utf8";
 
-header {
-}
+
 
 .main_sec1_img {
   width: 1920px;
   height: 788px;
+  margin-top: 100px;
   background: url(../image/slide_img1.jpg) no-repeat center top/cover;
   transition: 0.5s;
   opacity: 1;
 }
 
 .main_sec1_btns {
-  margin-left: 44%;
+  margin-left: 42%;
 }
 .main_sec1_btns a {
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   margin-left: 50px;
   margin-top: 700px;
-  background-color: aqua;
+  background-color: rgb(163, 163, 163);
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
   float: left;
 }
+
+
+.main_sec1_btns a.active {
+  display: block;
+  width: 50px;
+  height: 20px;
+  margin-left: 50px;
+  margin-top: 700px;
+  background-color: rgb(255, 71, 71);
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  float: left;
+}
+
+/* sec2 */
+.sec2Wrap{
+  width: 100%;
+  height: 1240px;
+  padding-top: 200px;
+  background: url(../image/sec2_bg_img.jpg) no-repeat center/cover;
+}
+.main_sec2_marketout_img{
+  width: 1200px;
+  height: 800px;
+  margin-left: 550px;
+  position: relative;
+  background: url(../image/sec2_marketout_img.jpg) no-repeat center/cover;
+}
+.main_sec2_title{
+  width: 100%;
+  height: 200px;
+  font-size: 200px;
+  color: rgba(212, 212, 212, 0.808);
+  position: relative;
+  top:0;
+  left:-300px;
+  margin-right: 500px;
+  white-space: nowrap;
+}
+.main_sec2_marketin_img{
+  width: 400px;
+  height: 400px;
+  margin: -200px 0 0 600px;
+  background: url(../image/sec2_marketin_img.jpg) no-repeat center/cover;
+}
+.main_sec2_article{
+  width: 550px;
+  height: 300px;
+  padding: 50px;
+  margin: 500px 0 0 -100px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+}
+.main_sec2_article span{
+  color: rgb(226, 58, 43);
+  text-transform: uppercase;
+  text-align: right;
+}
+.main_sec2_article span strong{
+  color: black;
+  text-transform: uppercase;
+}
+.main_sec2_article span p{
+  color: rgb(0, 0, 0);
+}
+
+
+

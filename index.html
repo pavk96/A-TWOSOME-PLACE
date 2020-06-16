@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>투썸플레이스 - Premium Dessert Cafe A Twosome Place.</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <script defer src="js/main.js"></script>
-  </head>
-  <body>
-      <div class="headerWrap"  >
-          <header class="header" onmouseleave="closeSubMenu()">
-            <div class="headerInner">
-            <div class="header_sub_menu"></div>
-        <a href="#"><div class="logo"></div></a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>투썸플레이스 - Premium Dessert Cafe A Twosome Place.</title>
+  <link rel="shortcut icon" href="image/favicon (1).ico">
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="headerWrap">
+    <header class="header" onmouseleave="closeSubMenu()">
+      <div class="headerInner">
+        <div class="header_sub_menu"></div>
+        <a href="#">
+          <div class="logo"></div>
+        </a>
         <div class="gnb">
           <h2 class="hidden">투썸플레이스 메인메뉴</h2>
-          <ul class="header_menu"  onmouseover="openSubMenu()">
+          <ul class="header_menu" onmouseover="openSubMenu()">
             <li class="header_menu_item">
-                <a href="#"><h3>Coffee</h3></a>
-                <ul class="header_sub_menu">
-                    <li class="header_sub_item"><a href="#">에스프레소</a></li>
-                    <li class="header_sub_item"><a href="#">블렌디드</a></li>
-                    <li class="header_sub_item"><a href="#">티(TWG)</a></li>
-                    <li class="header_sub_item"><a href="#">기타</a></li>
-                </ul>
+              <a href="#">
+                <h3>Coffee</h3>
+              </a>
+              <ul class="header_sub_menu">
+                <li class="header_sub_item"><a href="#">에스프레소</a></li>
+                <li class="header_sub_item"><a href="#">블렌디드</a></li>
+                <li class="header_sub_item"><a href="#">티(TWG)</a></li>
+                <li class="header_sub_item"><a href="#">기타</a></li>
+              </ul>
             </li>
             <li class="header_menu_item">
-              <a href="#"><h3>Dessert</h3></a>
+              <a href="#">
+                <h3>Dessert</h3>
+              </a>
               <ul class="header_sub_menu">
                 <li class="header_sub_item"><a href="#">조각 케이크</a></li>
                 <li class="header_sub_item"><a href="#">홀 케이크</a></li>
@@ -38,14 +47,18 @@
               </ul>
             </li>
             <li class="header_menu_item">
-              <a href="#"><h3>Membership</h3></a>
+              <a href="#">
+                <h3>Membership</h3>
+              </a>
               <ul class="header_sub_menu">
                 <li class="header_sub_item"><a href="#">이벤트</a></li>
                 <li class="header_sub_item"><a href="#">공지사항</a></li>
               </ul>
             </li>
             <li class="header_menu_item">
-              <a href="#"><h3>Event</h3></a>
+              <a href="#">
+                <h3>Event</h3>
+              </a>
               <ul class="header_sub_menu">
                 <li class="header_sub_item"><a href="#">CJ ONE</a></li>
                 <li class="header_sub_item"><a href="#">제휴 안내</a></li>
@@ -53,30 +66,60 @@
             </li>
           </ul>
         </div>
-        </div>
-      </header>
+      </div>
+    </header>
     <div class="mainWrap">
       <main class="main">
-           <!-- sec1 -->
+        <!-- sec1 -->
         <section class="main_sec1 sec1Wrap">
           <h1 class="hidden"> slider</h1>
           <div class="main_sec1">
-              <div class="main_sec1_img_wrap">
-                  <div class="main_sec1_img" alt="">
-                  <div class="main_sec1_btns">
-                      <a href="#" onclick="one()"></a>
-                      <a href="#" onclick="two()"></a>
-                      <a href="#" onclick="three()"></a>
-                      <a href="#" onclick="pause()"></a>
-                  </div>
+            <div class="main_sec1_img_wrap">
+              <div class="main_sec1_img" alt="">
+                <div class="main_sec1_btns">
+                  <a  onclick="one()" class="main_sec1_btn1 active"></a>
+                  <a  onclick="two()" class="main_sec1_btn2"></a>
+                  <a  onclick="three()" class="main_sec1_btn3"></a>
+                  <a  onclick="pause()" id="pause"></a>
+                </div>
               </div>
-              </div>
+            </div>
           </div>
-      </section>
-    </main>
+        </section>
+        <!-- sec2 -->
+        <section class="main_sec2 sec2Wrap">
+          <div class="main_sec2_marketout_img">
+            <div class="main_sec2_title">A TWOSOME PLACE</div>
+            <div class="main_sec2_article">
+              <span>
+                A
+                <strong>cup of coffe</strong>
+                <p>따스한 한 잔의 커피가 있는</p>
+              </span>
+              <span>
+                Two
+                <strong>of us</strong>
+                <p>우리가 함께 하는</p>
+              </span>
+              <span>
+                Some
+                <strong>dessert</strong>
+                <p>눈과 입이 즐거운 색다른 디저트를 즐기는</p>
+              </span>
+              <span>
+                Place
+                <p>작은 사치를 누릴 수 있는 행복한 공간</p>
+              </span>
+            
+            <div class="main_sec2_marketin_img"></div>
+          </div>
+          </div>
+        </section>
+      </main>
     </div>
     <div class="footerWrap">
       <footer class="footer"></footer>
     </div>
-  </body>
+</body>
+
 </html>
