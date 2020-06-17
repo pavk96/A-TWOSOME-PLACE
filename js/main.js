@@ -31,7 +31,7 @@ function one() {
   active2.classList.remove(showClass);
   let active3 = document.querySelector(".main_sec1_btn3");
   active3.classList.remove(showClass);
-  sec1_img.style.backgroundImage = "url('../image/slide_img1.jpg')";
+  sec1_img.style.backgroundImage = "url('image/slide_img1.jpg')";
   clearInterval(bbb);
 }
 
@@ -46,7 +46,7 @@ function two() {
   active1.classList.remove(showClass);
 
 
-  sec1_img.style.backgroundImage = "url('../image/slide_img2.jpg')";
+  sec1_img.style.backgroundImage = "url('image/slide_img2.jpg')";
   clearInterval(bbb);
 }
 
@@ -59,7 +59,7 @@ function three() {
   active1.classList.remove(showClass);
   let active3 = document.querySelector(".main_sec1_btn3");
   active3.classList.add(showClass);
-  sec1_img.style.backgroundImage = "url('../image/slide_img3.jpg')";
+  sec1_img.style.backgroundImage = "url('image/slide_img3.jpg')";
   clearInterval(bbb);
 }
 // 넘기기
@@ -67,7 +67,7 @@ function num() {
   let sec1_img = document.querySelector(".main_sec1_img");
   let showClass = "active";
   if (aaa === 1) {
-    sec1_img.style.backgroundImage = "url('../image/slide_img2.jpg')";
+    sec1_img.style.backgroundImage = "url('image/slide_img2.jpg')";
     let active2 = document.querySelector(".main_sec1_btn2");
     active2.classList.add(showClass);
     let active1 = document.querySelector(".main_sec1_btn1");
@@ -76,7 +76,7 @@ function num() {
     active3.classList.remove(showClass);
     aaa++;
   } else if (aaa === 2) {
-    sec1_img.style.backgroundImage = "url('../image/slide_img3.jpg')";
+    sec1_img.style.backgroundImage = "url('image/slide_img3.jpg')";
     let active2 = document.querySelector(".main_sec1_btn2");
     active2.classList.remove(showClass);
     let active1 = document.querySelector(".main_sec1_btn1");
@@ -85,7 +85,7 @@ function num() {
     active3.classList.add(showClass);
     aaa++;
   } else if (aaa === 3) {
-    sec1_img.style.backgroundImage = "url('../image/slide_img1.jpg')";
+    sec1_img.style.backgroundImage = "url('image/slide_img1.jpg')";
     let active2 = document.querySelector(".main_sec1_btn2");
     active2.classList.remove(showClass);
     let active3 = document.querySelector(".main_sec1_btn3");
