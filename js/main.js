@@ -102,4 +102,27 @@ let bbb = setInterval(num, 2000);
 function pause() {
   clearInterval(bbb);
 }
-//sec1
+//sec2
+function title() {
+  let scrollPosition = window.scrollY;
+  let title = document.querySelector(".main_sec2_title");
+  if (scrollPosition > 400) {
+    title.className = "main_sec2_title1";
+  } else {
+    return title;
+  }
+}
+let ddd = setInterval(title, 500);
+
+function product() {
+  let scrollPosition = window.scrollY;
+  let product = document.querySelector(".main_sec3_productWrap");
+  if (scrollPosition > 1675) {
+    product.style.top = "0";
+    product.style.opacity = "1";
+    product.style.transitionDuration = "1s";
+  } else {
+    return product;
+  }
+}
+let eee = setInterval(product, 500);
