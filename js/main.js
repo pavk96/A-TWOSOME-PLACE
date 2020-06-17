@@ -126,3 +126,16 @@ function product() {
   }
 }
 let eee = setInterval(product, 500);
+
+// sec4_teapot 회전
+let teapot_f = document.querySelector(".sec4_teapot_front");
+let teapot_b = document.querySelector(".sec4_teapot_back");
+
+function rotateEvent() {
+    teapot_f.style.transform = "rotateY(-180deg)";
+    teapot_b.style.transform = "rotateY(0deg)";
+}
+function rotateEventOut() {
+    teapot_f.style.transform = "rotateY(0deg)";
+    teapot_b.style.transform = "rotateY(-180deg)";
+}
