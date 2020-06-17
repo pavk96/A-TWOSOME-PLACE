@@ -1,14 +1,14 @@
 @charset "utf8";
 
 @font-face {
-  font-family: 'NanumBarunGothic';
-  src: url('/webfont/NanumBarunGothic.ttf') format('truetype');
+  font-family: "NanumBarunGothic";
+  src: url("/webfont/NanumBarunGothic.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  font-family: 'NanumBarunGothicBold';
-  src: url('/webfont/NanumBarunGothicBold.ttf') format('truetype');
+  font-family: "NanumBarunGothicBold";
+  src: url("/webfont/NanumBarunGothicBold.ttf") format("truetype");
   font-style: normal;
   font-weight: bold;
 }
@@ -16,12 +16,14 @@
 html {
   overflow-x: hidden;
 }
-body {font-family: 'NanumBarunGothic';}
+body {
+  font-family: "NanumBarunGothic";
+}
 
 .main_sec1_img {
   width: 1920px;
   height: 788px;
-  margin-top: 100px;
+  margin-top: 30px;
   background: url(../image/slide_img1.jpg) no-repeat center top/cover;
   transition: 0.5s;
   opacity: 1;
@@ -43,7 +45,6 @@ body {font-family: 'NanumBarunGothic';}
   cursor: pointer;
   float: left;
 }
-
 
 .main_sec1_btns a.active {
   display: block;
@@ -211,21 +212,25 @@ body {font-family: 'NanumBarunGothic';}
 
 /* sec4 */
 #sec4 {
-  width: 100%; height: 530px;
+  width: 100%;
+  height: 530px;
   background: url(../image/main_sec4_bg.png) no-repeat top center / cover;
   background-attachment: fixed;
   margin-top: 200px;
 }
 #sec4 .sec4_teapot_box {
-  width: 435px; height: 435px;
+  width: 435px;
+  height: 435px;
   margin: 0 auto;
   position: relative;
 }
 #sec4 .sec4_teapot_box .sec4_teapot_front {
-  width: 300px; height: 300px;
+  width: 300px;
+  height: 300px;
   background: url(../image/main_sec4_teapot1.png) no-repeat center center;
   position: absolute;
-  top: 115px; left: 67.5px;
+  top: 115px;
+  left: 67.5px;
   transform: rotateY(0deg);
   transform-style: preserve-3d;
   backface-visibility: hidden;
@@ -233,10 +238,12 @@ body {font-family: 'NanumBarunGothic';}
   cursor: pointer;
 }
 #sec4 .sec4_teapot_box .sec4_teapot_back {
-  width: 435px; height: 435px;
+  width: 435px;
+  height: 435px;
   background: url(../image/main_sec4_teapot2.png) no-repeat center center;
   position: absolute;
-  top: 47.5px; left: 0;
+  top: 47.5px;
+  left: 0;
   transform: rotateY(-180deg);
   transform-style: preserve-3d;
   backface-visibility: hidden;
@@ -244,9 +251,10 @@ body {font-family: 'NanumBarunGothic';}
   cursor: pointer;
 }
 #sec4 .sec4_teapot_box .sec4_teapot_back .sec4_text .sec4_line {
-  width: 100px; height: 1px;
+  width: 100px;
+  height: 1px;
   margin: 0 auto;
-  margin-top: 250px; 
+  margin-top: 250px;
   margin-bottom: 20px;
   display: block;
   background: #ddd;
@@ -269,18 +277,22 @@ body {font-family: 'NanumBarunGothic';}
 #sec5 .sec5_title {
   text-align: center;
   text-transform: uppercase;
-  font-family: 'NanumBarunGothicBold';
+  font-family: "NanumBarunGothicBold";
   font-size: 34px;
   font-weight: bold;
 }
-#sec5 .sec5_notice_box {overflow: hidden;}
+#sec5 .sec5_notice_box {
+  overflow: hidden;
+}
 #sec5 .sec5_notice_box li {
   width: 30.8%;
   float: left;
   margin-top: 50px;
   margin-right: 35px;
 }
-#sec5 .sec5_notice_box li:last-child {margin-right: 0;}
+#sec5 .sec5_notice_box li:last-child {
+  margin-right: 0;
+}
 #sec5 .sec5_notice_box .sec5_notice_title {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -290,19 +302,19 @@ body {font-family: 'NanumBarunGothic';}
   color: #333;
 }
 #sec5 .sec5_notice_box .sec5_notice_text {
-  white-space: normal; 
-  line-height: 1.5; 
-  height: 3em; 
+  white-space: normal;
+  line-height: 1.5;
+  height: 3em;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2; 
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   font-size: 15px;
   color: #666;
   margin: 15px 0 20px 0;
 }
 #sec5 .sec5_notice_box .sec5_notice_btn {
-  font-family: 'NanumBarunGothicBold';
+  font-family: "NanumBarunGothicBold";
   font-size: 15px;
   font-weight: bold;
   color: #444;
@@ -319,7 +331,7 @@ body {font-family: 'NanumBarunGothic';}
 #sec6 .sec6_title {
   text-align: center;
   text-transform: uppercase;
-  font-family: 'NanumBarunGothicBold';
+  font-family: "NanumBarunGothicBold";
   font-size: 34px;
   font-weight: bold;
 }
