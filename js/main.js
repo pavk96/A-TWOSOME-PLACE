@@ -62,9 +62,6 @@ function pause() {
   clearInterval(bbb);
 }
 //sec2
-// 선언
-
-// 선언
 function title() {
   let scrollPosition = window.scrollY;
   let title = document.querySelector(".main_sec2_title");

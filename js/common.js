@@ -6,7 +6,6 @@ function openSubMenu() {
   for (i = 0; i < subMenu.length; i++) {
     subMenu[i].style.display = "block";
   }
-  //   Header.style.backgroundColor = "white";
 }
 
 function closeSubMenu() {
@@ -14,6 +13,5 @@ function closeSubMenu() {
   for (i = 0; i < subMenu.length; i++) {
     subMenu[i].style.display = "none";
   }
-  //   Header.style.backgroundColor = "transparent";
 }
 //header

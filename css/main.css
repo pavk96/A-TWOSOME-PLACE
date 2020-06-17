@@ -95,7 +95,7 @@ body {
   position: relative;
   top: 0;
   right: 500px;
-  transition: right 0.5s;
+  transition: right 1.5s;
   white-space: nowrap;
 }
 
@@ -137,7 +137,7 @@ body {
 .sec3Wrap {
   width: 100%;
   height: 414px;
-  padding-top: 110px;
+  padding: 110px 0;
 }
 
 .sec3Wrap h2 {
@@ -226,12 +226,12 @@ body {
   position: relative;
 }
 #sec4 .sec4_teapot_box .sec4_teapot_front {
-  width: 300px;
-  height: 300px;
-  background: url(../image/main_sec4_teapot1.png) no-repeat center center;
+  width: 350px;
+  height: 400px;
+  background: url(../image/main_sec4_teapot1.png) no-repeat center;
   position: absolute;
-  top: 115px;
-  left: 67.5px;
+  top: 55px;
+  left: 40px;
   transform: rotateY(0deg);
   transform-style: preserve-3d;
   backface-visibility: hidden;
@@ -281,6 +281,7 @@ body {
   font-family: "NanumBarunGothicBold";
   font-size: 34px;
   font-weight: bold;
+  margin-bottom: 70px;
 }
 #sec5 .sec5_notice_box {
   overflow: hidden;
@@ -326,7 +327,7 @@ body {
 #sec6 {
   width: 1200px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 0px 50px 120px;
   box-sizing: border-box;
 }
 #sec6 .sec6_title {
@@ -335,6 +336,7 @@ body {
   font-family: "NanumBarunGothicBold";
   font-size: 34px;
   font-weight: bold;
+  margin-bottom: 120px;
 }
 #sec6 .sec6_instagram_box {
   margin-top: 50px;
