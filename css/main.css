@@ -25,7 +25,7 @@ body {
   height: 788px;
   margin-top: 30px;
   background: url(../image/slide_img1.jpg) no-repeat center top/cover;
-  transition: 0.5s;
+  transition: all 2s;
   opacity: 1;
 }
 
@@ -44,6 +44,7 @@ body {
   border-radius: 10px;
   cursor: pointer;
   float: left;
+  transition: all 2s;
 }
 
 .main_sec1_btns a.active {
