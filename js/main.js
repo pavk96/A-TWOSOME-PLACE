@@ -98,3 +98,27 @@ function rotateEventOut() {
   teapot_f.style.transform = "rotateY(0deg)";
   teapot_b.style.transform = "rotateY(-180deg)";
 }
+
+// sec5_notice 스르륵
+
+function noticeEvent() {
+  let currentScroll = window.scrollY;
+  let sec5_notice = document.querySelector(".sec5_notice_box");
+  if(currentScroll > 3400) {
+    sec5_notice.style.top = "100px";
+    sec5_notice.style.opacity = "1";
+  } else {
+    return sec5_notice;
+  }
+}
+window.addEventListener("scroll", noticeEvent);
+
+// sec6_instagram 슬라이드
+let sec6_instagram_feed = document.querySelector(".sec6_instagram_feed");
+
+function prevEvent() {
+  sec6_instagram_feed.style.left = "0px";
+}
+function nextEvent() {
+  sec6_instagram_feed.style.left = "-600px";
+}
